@@ -13,11 +13,11 @@ setup(
   packages = ['testipbase'], # this must be the same as the name above
   version = '1.0',
   description = 'Python Client for ipbase.co - a Free Ip Geolocation API',
-  author = 'Steve',
+  author = 'theipguy2018',
   author_email = 'theipguy2018@gmail.com',
   url = 'https://github.com/theipguy/testipbase', # use the URL to the github repo
-  download_url = 'https://github.com/ipdata/python/archive/2.5.tar.gz', # I'll explain this in a second
-  keywords = ['geolocation', 'ip geolocation', 'ip locate'], # arbitrary keywords
+  download_url = 'https://github.com/theipguy/testipbase/archive/1.0.tar.gz', # I'll explain this in a second
+  keywords = ['geolocation', 'ip geolocation', 'ip locate', 'geoip','ip country'], # arbitrary keywords
   long_description=read('README'),
   classifiers = [],
 )
