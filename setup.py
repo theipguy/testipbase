@@ -18,6 +18,7 @@ setup(
   url = 'https://github.com/theipguy/testipbase', 
   download_url = 'https://github.com/theipguy/testipbase/archive/1.0.tar.gz',
   keywords = ['geolocation', 'ip geolocation', 'ip locate', 'geoip','ip country'],
-  long_description=read('README'),
+  long_description=read('README.md'),
   classifiers = [],
+  install_requires=['requests']
 )
