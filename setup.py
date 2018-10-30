@@ -10,14 +10,14 @@ def read(fname):
 
 setup(
   name = 'testipbase',
-  packages = ['testipbase'], # this must be the same as the name above
+  packages = ['testipbase'], 
   version = '1.0',
   description = 'Python Client for ipbase.co - a Free Ip Geolocation API',
   author = 'theipguy2018',
   author_email = 'theipguy2018@gmail.com',
-  url = 'https://github.com/theipguy/testipbase', # use the URL to the github repo
-  download_url = 'https://github.com/theipguy/testipbase/archive/1.0.tar.gz', # I'll explain this in a second
-  keywords = ['geolocation', 'ip geolocation', 'ip locate', 'geoip','ip country'], # arbitrary keywords
+  url = 'https://github.com/theipguy/testipbase', 
+  download_url = 'https://github.com/theipguy/testipbase/archive/1.0.tar.gz',
+  keywords = ['geolocation', 'ip geolocation', 'ip locate', 'geoip','ip country'],
   long_description=read('README'),
   classifiers = [],
 )
